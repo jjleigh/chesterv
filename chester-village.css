@@ -1,0 +1,315 @@
+* {
+	font-family: open sans;
+}
+
+/*navigation*/
+nav {
+	width: 100%;
+}
+
+#nav-slogan {
+	color:  #0A5595;
+	font-weight: bold;
+	margin-left: 250px;
+	padding-top: 11px;
+	font-size: 10px;
+}
+
+
+.navigation-links-top {
+	font-size: 11px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0 !important;
+	padding-right:0 !important;
+	width: 55px !important;
+	display: inline;
+	font-weight: bold;
+	text-align: center;
+}
+
+#tour-link {
+	background-color: #F8D037;
+	color: #23518C;
+	height: 35px;
+	width: 110px !important;
+}
+
+#first-nav {
+	background-color: #83AFD6;
+	height: 35px;
+	width: 100%;
+}
+#second-nav {
+	background-color: #0A5595;
+	height: 60px;
+	width: 100%;
+}
+
+.navigation-links-bottom a {
+	color: white;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+#about-link {
+	text-align: center;
+}
+
+.navigation-links-bottom{
+	padding-top: 20px;
+	text-align: right;
+	padding-left: 0 !important;
+	padding-right:0 !important;
+	width: 115px !important;
+}
+#home-button {
+	color: #F8D037;
+	width: 45px !important;
+}
+
+/*body*/
+
+#image-banner {
+	background-image: url('./images/res-img.jpg');
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+}
+
+/*welcome to our long term care facility*/
+
+#welcome {
+	background-image: url('./images/welcome-banner1.jpg');
+	height: 130px;
+	text-align: center;
+
+}
+
+#welcome p {
+	margin-bottom: 0;
+	font-weight: bold;
+	font-family: Lato;
+}
+
+#welcome-heading {
+	font-size: 25px;
+	color:  #0A5595;
+	font-family: open sans !important;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#description{	
+	background-color: #F5F5F5;
+	height: 320px;
+	padding-top: 45px;
+	border-top: 3px solid silver;
+	font-weight: bold;
+}
+
+ol li {
+	list-style: disc;
+}
+
+#description-heading {
+	color: #0A5595;
+	font-weight: bold;
+}
+
+#medal {
+	height: 250px;
+	width: 270px;
+	background-repeat: no-repeat;
+	background-image: url('./images/medal1.png');
+}
+
+#images {
+	background-color: #ECECEC;
+	height: 300px;
+	border-top: 1px solid silver;
+}
+
+.first-image {
+	margin-top: 50px;
+	margin-right: 30px; 
+	width: 28% !important;
+	height: 210px;
+	background-repeat: no-repeat;
+	background-image: url('./images/fam-council.jpg');
+	border: 5px solid #83AFD6;
+	border
+}
+
+.second-image {
+	margin-top: 50px;
+	margin-right: 30px; 
+	margin-left: 50px;
+	width: 28% !important;
+	height: 210px;
+	background-repeat: no-repeat;
+	background-image: url('./images/residence-council.jpg');
+	border: 5px solid #ACD3A9;
+}
+
+.third-image {
+	margin-top: 50px;
+	margin-right: 30px; 
+	width: 28% !important;
+	height: 210px;
+	background-repeat: no-repeat;
+	background-image: url('./images/request-a-tour.jpg');
+	border: 5px solid #F8D037;
+}
+
+/*footer*/
+
+#first-footer {
+	background-color: #83AFD6;
+	height: 60px;
+	width: 100%;
+}
+
+/* second footer*/
+#second-footer {
+	background-color: #0A5595;
+	height: 350px;
+	width: 100%;
+	padding-bottom: 20px;
+}	
+.second-footer-columns {
+	padding-top: 30px;
+	margin-right: 30px;
+}
+
+.second-footer-headings, hr {
+	color: #83AFD6;
+	font-weight: 600;
+}
+
+ul li {
+	list-style: none;
+	color: white;
+}
+
+.footer-links {
+	padding-left: 0;
+}
+
+.footer-links a {
+	color: white;
+}
+
+hr {
+	color: #83AFD6;
+}
+
+/*third footer*/
+
+#third-footer {
+	padding-top: 15px;
+	background-color: #064A83;	
+	height: 60px;
+	width: 100%;
+	color: #83AFD6;
+	line-height: 9px;
+}
+
+#third-footer a:link {
+	text-decoration: underline;
+}
+
+.main-font {
+	color: #23518C;
+	font-weight: bold;
+}
+
+#call-us {
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+#slogan {
+	text-align: right;
+	font-family: ;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 17px;
+}
+
+#number {
+	color: white;
+}
+
+.third-footer-text {
+	font-size: 10px;
+}
+
+#lhin-stamp {
+	font-size: 30px;
+	height: 30px;
+	width: 250px;
+	background-repeat: no-repeat;
+	background-image: url('./images/lhin.png');
+	margin-bottom: 0;
+	padding-right: 0;
+}
+
+#toronto-central-link {
+	font-weight: 600;
+	color: #83AFD6;
+}
+
+#nobul-signature {
+	text-align: right;
+}
+
+.ib {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+
+/* styling for images with overlapping borders*/
+
+.border-overlap {
+	height: 35px;
+	text-align: center;
+	padding-top: 9px;
+	font-family: open sans;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.row-row {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+#light-blue {
+	background-color: #83AFD6;
+	color: #0A5595;
+}
+#dark-blue{
+	background-color: #0A5595;
+	color: #83AFD6;
+}
+#light-green{
+	background-color: #ACD3A9;
+	color:  #507851;
+}
+#dark-green{
+	background-color: #507851;
+	color: #ACD3A9;
+}
+#light-yellow{
+	background-color: #F8D037;
+	color: #B38026;
+}
+#dark-yellow{
+	background-color: #B38026;
+	color: #F8D037;
+}
+
