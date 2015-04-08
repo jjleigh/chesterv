@@ -13,7 +13,6 @@ nav li a {
 	text-shadow: none !important;
 }
 
-
 #nav-slogan {
 	color:  #0A5595;
 	font-weight: bold;
@@ -50,17 +49,10 @@ nav li a {
 	width: 100%;
 }
 
-
 nav.navbar.navbar-default {
 	background-image: none;
 	border-radius: 0;
 	border-style: none;
-}
-
-#logo {
-	position: absolute;
-	z-index: 12;
-	width: 120px;
 }
 
 #logo img {
@@ -90,9 +82,7 @@ nav.navbar.navbar-default {
 #image-banner {
 	background-image: url('./images/res-img.jpg');
 	height: 500px;
-	width: 100%;
 	background-size: cover;
-	position: relative;
 }
 
 /*welcome to our long term care facility*/
@@ -103,7 +93,7 @@ nav.navbar.navbar-default {
 }
 
 #welcome p {
-	margin-bottom: 0;
+	margin-bottom: 3px;
 	font-weight: bold;
 	font-family: Lato;
 }
@@ -139,13 +129,10 @@ ol li {
 	background-image: url('./images/medal1.png');
 }
 
-
-
 /*footer*/
 
 #first-footer {
 	background-color: #83AFD6;
-	width: 100%;
 }
 
 #call-us {
@@ -158,7 +145,7 @@ ol li {
 	font-family: ;
 	font-style: italic;
 	font-weight: bold;
-	padding-top: 17px;
+	padding-top: 19px;
 }
 
 #number {
@@ -199,9 +186,6 @@ ul li {
 #third-footer {
 	padding-top: 15px;
 	background-color: #064A83;	
-	width: 100%;
-	color: #83AFD6;
-	line-height: 9px;
 	margin-bottom: -25px;
 } 
 
@@ -214,12 +198,9 @@ ul li {
 	font-weight: bold;
 }
 
-.third-footer-text {
-	font-size: 11px;
-}
-
 #lhin-stamp {
 	height: 30px;
+	max-width: 265px;
 	margin-bottom: 0;
 	padding-right: 0;
 }
@@ -232,15 +213,84 @@ ul li {
 #nobul-signature {
 	text-align: right;
 }
-
-.ib {
-	display: inline-block;
-	margin-right: 10px;
+.toronto-central {
 	font-size: 11px;
+	line-height: 4px;
+	text-align: left;
 }
 
+.toronto-central p {	
+	color: #83AFD6;
+}
+
+/* media queries */
+@media (max-width: 992px) { 
+	#medal {
+		margin: 25px auto;
+	}
+	#nav-links-top li {
+		margin-left: 2px;
+		font-size: 10px;
+	}
+	#nav-links-bottom li {
+		margin-top: 25px;
+		margin-left: 12px;
+		font-size: 10px;
+	}
+	#logo img {
+		margin-top: 10px;
+		z-index: 888;
+	}
+	#second-nav {
+		height: 100px;
+	}
+	#nobul-signature {
+		margin-top: 25px;
+		text-align: center;
+	}
+	.toronto-central {
+		text-align: center;
+	}
+	#lhin-stamp {
+		margin-left: 31%;
+		margin-bottom: 25px;
+	}
+ }
 
 /* styling for images with overlapping borders*/
+#images {
+	background-color: #ECECEC;
+	border-top: 1px solid silver;
+	padding: 50px 0;
+}
+
+.image-boxes {
+	height: 210px;
+	position: relative;
+	margin: 20px auto;
+	max-width: 360px;
+}
+
+.first-image {
+	background-image: url('./images/fam-council.jpg');
+	border: 5px solid #83AFD6;
+}
+
+.second-image {
+	background-image: url('./images/residence-council.jpg');
+	border: 5px solid #ACD3A9;
+}
+
+.third-image {
+	background-image: url('./images/request-a-tour.jpg');
+	border: 5px solid #F8D037;
+}
+
+.image-lower-border {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
 
 .border-overlap {
 	height: 35px;
@@ -250,7 +300,6 @@ ul li {
 	font-weight: bold;
 	font-size: 12px;
 }
-
 
 #light-blue {
 	background-color: #83AFD6;
@@ -277,83 +326,6 @@ ul li {
 	background-color: #B38026;
 	color: #F8D037;
 }
-
-/* media queries */
-
-@media (max-width: 992px) { 
-	#medal {
-		margin: 25px auto;
-	}
-
-	#nav-links-top li {
-		margin-left: 2px;
-		font-size: 10px;
-	}
-
-	#nav-links-bottom li {
-		margin-top: 25px;
-		margin-left: 12px;
-		font-size: 10px;
-	}
-
-	#logo img {
-		margin-top: 10px;
-		z-index: 888;
-	}
-
-	#second-nav {
-		height: 100px;
-	}
-
-	#nobul-signature {
-		margin-top: 50px;
-		text-align: center;
-	}
-
-	#lhin-stamp {
-		margin-left: 33%;	
-	}
- }
-
-#images {
-	background-color: #ECECEC;
-	border-top: 1px solid silver;
-	padding: 50px 0;
-}
-
-.image-boxes {
-	height: 210px;
-	position: relative;
-	margin: 20px auto;
-	max-width: 360px;
-}
-
-
-.first-image {
-	background-image: url('./images/fam-council.jpg');
-	border: 5px solid #83AFD6;
-}
-
-.second-image {
-	background-image: url('./images/residence-council.jpg');
-	border: 5px solid #ACD3A9;
-}
-
-.third-image {
-	background-image: url('./images/request-a-tour.jpg');
-	border: 5px solid #F8D037;
-}
-
-.image-lower-border {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-
-
-
-
-
 
 
 
