@@ -12,51 +12,62 @@
 	</head>
 	<body>
 		<header>
-		<!-- navigation starts -->
-			<nav>	
-				<div id="first-nav">
-					<div class="container">
-						<div class="row">	
-							<div class="links-container col-md-12 pull-right">
-							<span id="nav-slogan" class="col-md-3 pull-left">...where life has meaning.</span>
-								<span class="navigation-links-top col-md-1"></span>
-								<span class="navigation-links-top col-md-1"></span>
-								<span class="navigation-links-top col-md-1"></span>
-								<span class="navigation-links-top col-md-1"></span>
-								<span class="navigation-links-top col-md-1"><a href="">Careers</a></span>
-								<span class="navigation-links-top col-md-1"><a href="">Volunteer</a></span>
-								<span class="navigation-links-top col-md-1"><a href="">FAQ</a></span>
-								<span class="navigation-links-top col-md-1"><a href="">Newsletter</a></span>
-								<span class="navigation-links-top col-md-1"><a href="">Donate</a></span>
-								<span class="navigation-links-top col-md-1" id="tour-link"><a href="">Request A Tour</a></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="second-nav">
-					<div class="container">
-						<div class="row">
-							<span class="navigation-links-bottom col-md-1"></span>
-							<span class="navigation-links-bottom col-md-1"></span>
-							<span class="navigation-links-bottom col-md-1"></span>
-							<span class="navigation-links-bottom col-md-1"></span>
-							<span class="navigation-links-bottom col-md-1"><a  id="home-button" href="">HOME</a></span>
-							<span class="navigation-links-bottom col-md-1" id="about-link"><a href="">ABOUT</a></span>
-							<span class="navigation-links-bottom col-md-2"><a href="">OUR RESIDENCE</a></span>
-							<span class="navigation-links-bottom col-md-1"><a href="">SERVICES</a></span>
-							<span class="navigation-links-bottom col-md-1"><a href="">ADMISSIONS</a></span>
-							<span class="navigation-links-bottom col-md-1"><a href="">CONTACT</a></span>
-						</div>
-					</div>
-				</div>
+			<nav class="navbar navbar-default hidden-xs hidden-sm" id="first-nav">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+	
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id="first-nav">
+			      <p id="nav-slogan" class="pull-left hidden-xs hidden-sm">...where life has meaning.</p>
+			      <ul class="nav navbar-nav navbar-right" id="nav-links-top">
+		      	 	<li><a href="">Careers</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">Volunteer</a></li>
+							<li><a href="">Newsletter</a></li>
+							<li><a href="">Donate</a></li>
+							<li id="tour-link"><a href="">Request A Tour</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<nav class="navbar navbar-default" id="second-nav">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a  id="logo" href="#"><img src="images/logo3.png" alt="Logo"></a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right nav-links" id="nav-links-bottom">
+							<li class="navigation-links-bottom"><a  id="home-button" href="">HOME</a></li>
+							<li class="navigation-links-bottom"><a href="">ABOUT</a></li>
+							<li class="navigation-links-bottom"><a href="">OUR RESIDENCE</a></li>
+							<li class="navigation-links-bottom"><a href="">SERVICES</a></li>
+							<li class="navigation-links-bottom"><a href="">ADMISSIONS</a></li>
+							<li class="navigation-links-bottom"><a href="">CONTACT</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
 			</nav>
 			<!-- navigation ends -->
 		</header>
 		<!-- image starts -->
 		<div id="image-banner">	
-			<!-- <div class="container-fluid">
-				<div class="row"></div>
-			</div> -->
 		</div>
 		<!-- image ends -->
 		<div id="welcome">
@@ -76,8 +87,8 @@
 			<div id="description">
 				<div class="container">
 					<div class="row">
-						<div id="decription-text" class="col-md-8 col-s-12">
-							<p>Chester Villages, with accommodation for 203 residents, is conveniently located in an established community at Danforth and Warden Avenues.</p>
+						<div id="decription-text" class="col-md-8 col-sm-12">
+							<p>Chester Village, with accommodation for 203 residents, is conveniently located in an established community at Danforth and Warden Avenues.</p>
 							<p>
 								Our new state-of-the-are facility is designed to create a warm, relaxing homelike environment with spacious private and shared accomodation rooms.
 							</p>
@@ -90,8 +101,10 @@
 								<li>Deluxe Couples' Suites</li>
 							</ol>
 						</div>
-						<div id="medal" class="col-md-4 pull-right col-s-12">
+						<div class="col-md-4 col-sm-12">
+							<div id="medal">
 							 
+							</div>
 						</div>
 					</div>
 			</div>
@@ -99,22 +112,28 @@
 		<div id="images">
 			<div class="container">
 				<div class="row">
-					<div class="first-image col-md-3 pull-left">
-						<div class="row row-row">	
-							<div class='border-overlap  col-md-6' id="light-blue">FAMILY COUNCIL</div>
-							<div class='border-overlap col-md-6' id="dark-blue">LEARN MORE ></div>
+					<div class="col-md-4">
+						<div class="first-image image-boxes">
+							<div class="image-lower-border">	
+								<div class='border-overlap  col-md-6' id="light-blue">FAMILY COUNCIL</div>
+								<div class='border-overlap col-md-6' id="dark-blue">LEARN MORE ></div>
+							</div>
 						</div>
 					</div>
-					<div class="second-image col-md-3 col-centered">
-						<div class="row row-row">	
-							<div class='border-overlap col-md-6' id="light-green">RESIDENCE COUNCIL</div>
-							<div class='border-overlap col-md-6' id="dark-green">LEARN MORE ></div>
+					<div class="col-md-4">
+						<div class="second-image image-boxes">
+							<div class="image-lower-border">	
+								<div class='border-overlap col-md-6' id="light-green">RESIDENCE COUNCIL</div>
+								<div class='border-overlap col-md-6' id="dark-green">LEARN MORE ></div>
+							</div>
 						</div>
 					</div>
-					<div class="third-image col-md-3 pull-right">
-						<div class="row row-row">	
-							<div class='border-overlap col-md-6' id="light-yellow">REQUEST A TOUR</div>
-							<div class='border-overlap col-md-6' id="dark-yellow">LEARN MORE ></div>
+					<div class="col-md-4">
+						<div class="third-image image-boxes">
+							<div class="image-lower-border">	
+								<div class='border-overlap col-md-6' id="light-yellow">REQUEST A TOUR</div>
+								<div class='border-overlap col-md-6' id="dark-yellow">LEARN MORE ></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -124,11 +143,11 @@
 				<div id="first-footer">
 					<div class="container">
 						<div class="row">
-							<div class='col-md-6'>
+							<div class='col-md-6 col-sm-6 col-xs-6'>
 								<p class="main-font" id="call-us">CALL US</p>
 								<p id="number">416.466.2173</p>
 							</div>
-							<div class='col-md-6'>
+							<div class='col-md-6 col-sm-6 col-xs-6'>
 								<p class="main-font" id="slogan">...where life has meaning.</p>
 							</div>
 						</div>
@@ -137,7 +156,7 @@
 				<div id="second-footer">
 					<div class="container">
 						<div class="row">
-							<div class="second-footer-columns col-md-2">
+							<div class="second-footer-columns col-md-2 col-sm-12 col-xs-12">
 								<h5 class="second-footer-headings">QUICK LINKS</h5>
 								<hr>
 								<ul class="footer-links">
@@ -152,7 +171,7 @@
 									<li><a href="">Donate</a></li>
 								</ul>
 							</div>
-							<div class="second-footer-columns col-md-2">
+							<div class="second-footer-columns col-md-2 col-sm-12 col-xs-12">
 								<h5 class="second-footer-headings">ABOUT</h5>
 								<hr>
 								<ul class="footer-links">
@@ -166,7 +185,7 @@
 									<li><a href="">Our Philosophy</a></li>
 								</ul>
 							</div>
-							<div class="second-footer-columns col-md-2">
+							<div class="second-footer-columns col-md-2 col-sm-12 col-xs-12">
 								<h5 class="second-footer-headings">RESIDENCE</h5>
 								<hr>
 								<ul class="footer-links">
@@ -176,7 +195,7 @@
 									<li><a href="">Tours/Suites</a></li>
 								</ul>
 							</div>
-							<div class="second-footer-columns col-md-2">
+							<div class="second-footer-columns col-md-2 col-sm-12 col-xs-12">
 								<h5 class="second-footer-headings">SERVICES</h5>
 								<hr>
 								<ul class="footer-links">
@@ -188,7 +207,7 @@
 									<li><a href="">Chinese Services</a></li>
 								</ul>
 							</div>
-							<div class="second-footer-columns col-md-2">
+							<div class="second-footer-columns col-md-2 col-sm-12 col-xs-12">
 								<h5 class="second-footer-headings">ADMISSIONS</h5></h5>
 								<hr>
 								<ul class="footer-links">
@@ -202,21 +221,14 @@
 				<div id="third-footer">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-7 ">
-								<div id="lhin-stamp" class="pull-left ib">
-								</div>
-								<p class="pull-left ib">
-									Chester village's programs are partially funded by
-								</p>
-								<p class="pull-left ib">the <a id="toronto-central-link" href="">Toronto Central LHIN ></a></p>
+							<div class="col-md-7 col-sm-12 col-xs-12">
+								<div id="lhin-stamp" class="pull-left ib"><img src="./images/lhin.png" class="img-responsive">
+								<p class="ib">Chester village's programs are partially funded by</p><br>
+								<p class="ib">the <a id="toronto-central-link" href="">Toronto Central LHIN ></a></p>
 							</div>
-							<div class="col-md-5 text-right third-footer-text" id="nobul-signature">
-								<p>
-									Copyright Chester Village 2014 | <a href="">Privacy Policy</a>
-								</p>
-								<p>
-									Mississauga Web Desgin by <a href="http://www.nobulmedia.com/">noBul Media</a>
-								</p>
+							<div class="col-md-5 col-sm-12 col-xs-12 third-footer-text" id="nobul-signature">
+								<p>Copyright Chester Village 2014 | <a href="">Privacy Policy</a></p>
+								<p>Mississauga Web Desgin by <a href="http://www.nobulmedia.com/">noBul Media</a></p>
 							</div>
 						</div>
 					</div>

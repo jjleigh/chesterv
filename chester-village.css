@@ -1,90 +1,105 @@
 * {
 	font-family: open sans;
+	color: black;
+	background-repeat: no-repeat;
 }
 
 /*navigation*/
 nav {
-	width: 100%;
+	margin: 0 !important;
 }
+
+nav li a {
+	text-shadow: none !important;
+}
+
 
 #nav-slogan {
 	color:  #0A5595;
 	font-weight: bold;
-	margin-left: 250px;
-	padding-top: 11px;
-	font-size: 10px;
-}
-
-
-.navigation-links-top {
-	font-size: 11px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 0 !important;
-	padding-right:0 !important;
-	width: 55px !important;
-	display: inline;
-	font-weight: bold;
-	text-align: center;
+	font-family: Lato;
+	font-style: italic;
+	padding-top: 20px;
+	font-size: 14px;
+	margin-left: 100px;
 }
 
 #tour-link {
 	background-color: #F8D037;
 	color: #23518C;
-	height: 35px;
-	width: 110px !important;
 }
 
+#nav-links-top a {
+	color: #0A5595;
+}
+
+#nav-links-top li {
+	color:  #0A5595 !important;
+	font-size: 10px;
+	font-weight: 700;
+	margin-left: 2px;
+}
 #first-nav {
-	background-color: #83AFD6;
+	background-color: #83AFD6 !important;
 	height: 35px;
 	width: 100%;
 }
 #second-nav {
-	background-color: #0A5595;
+	background-color: #0A5595 !important;
 	height: 60px;
 	width: 100%;
 }
 
-.navigation-links-bottom a {
+
+nav.navbar.navbar-default {
+	background-image: none;
+	border-radius: 0;
+	border-style: none;
+}
+
+#logo {
+	position: absolute;
+	z-index: 12;
+	width: 120px;
+}
+
+#logo img {
+	margin-top: -25px;
+	z-index: 888;
+}
+#nav-links-bottom a {
 	color: white;
+}
+#nav-links-bottom li {
+	margin-top: 7px;
+	margin-left: 22px;
+	font-size: 15px;
+}
+
+.nav-links li {
 	font-weight: 600;
 	font-size: 13px;
 }
 
-#about-link {
-	text-align: center;
-}
-
-.navigation-links-bottom{
-	padding-top: 20px;
-	text-align: right;
-	padding-left: 0 !important;
-	padding-right:0 !important;
-	width: 115px !important;
-}
 #home-button {
-	color: #F8D037;
-	width: 45px !important;
+	color: #F8D037 !important;
 }
 
 /*body*/
 
 #image-banner {
 	background-image: url('./images/res-img.jpg');
-	background-repeat: no-repeat;
-	height: 400px;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
+	position: relative;
 }
 
 /*welcome to our long term care facility*/
 
 #welcome {
-	background-image: url('./images/welcome-banner1.jpg');
-	height: 130px;
+	background-image: url('./images/welcome-banner1.jpg');	
 	text-align: center;
-
 }
 
 #welcome p {
@@ -103,10 +118,10 @@ nav {
 
 #description{	
 	background-color: #F5F5F5;
-	height: 320px;
 	padding-top: 45px;
 	border-top: 3px solid silver;
 	font-weight: bold;
+	padding-bottom: 45px;
 }
 
 ol li {
@@ -121,60 +136,38 @@ ol li {
 #medal {
 	height: 250px;
 	width: 270px;
-	background-repeat: no-repeat;
 	background-image: url('./images/medal1.png');
 }
 
-#images {
-	background-color: #ECECEC;
-	height: 300px;
-	border-top: 1px solid silver;
-}
 
-.first-image {
-	margin-top: 50px;
-	margin-right: 30px; 
-	width: 28% !important;
-	height: 210px;
-	background-repeat: no-repeat;
-	background-image: url('./images/fam-council.jpg');
-	border: 5px solid #83AFD6;
-	border
-}
-
-.second-image {
-	margin-top: 50px;
-	margin-right: 30px; 
-	margin-left: 50px;
-	width: 28% !important;
-	height: 210px;
-	background-repeat: no-repeat;
-	background-image: url('./images/residence-council.jpg');
-	border: 5px solid #ACD3A9;
-}
-
-.third-image {
-	margin-top: 50px;
-	margin-right: 30px; 
-	width: 28% !important;
-	height: 210px;
-	background-repeat: no-repeat;
-	background-image: url('./images/request-a-tour.jpg');
-	border: 5px solid #F8D037;
-}
 
 /*footer*/
 
 #first-footer {
 	background-color: #83AFD6;
-	height: 60px;
 	width: 100%;
+}
+
+#call-us {
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+#slogan {
+	text-align: right;
+	font-family: ;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 17px;
+}
+
+#number {
+	color: white;
 }
 
 /* second footer*/
 #second-footer {
 	background-color: #0A5595;
-	height: 350px;
 	width: 100%;
 	padding-bottom: 20px;
 }	
@@ -201,20 +194,16 @@ ul li {
 	color: white;
 }
 
-hr {
-	color: #83AFD6;
-}
-
 /*third footer*/
 
 #third-footer {
 	padding-top: 15px;
 	background-color: #064A83;	
-	height: 60px;
 	width: 100%;
 	color: #83AFD6;
 	line-height: 9px;
-}
+	margin-bottom: -25px;
+} 
 
 #third-footer a:link {
 	text-decoration: underline;
@@ -225,33 +214,12 @@ hr {
 	font-weight: bold;
 }
 
-#call-us {
-	padding-top: 10px;
-	font-size: 10px;
-}
-
-#slogan {
-	text-align: right;
-	font-family: ;
-	font-style: italic;
-	font-weight: bold;
-	padding-top: 17px;
-}
-
-#number {
-	color: white;
-}
-
 .third-footer-text {
-	font-size: 10px;
+	font-size: 11px;
 }
 
 #lhin-stamp {
-	font-size: 30px;
 	height: 30px;
-	width: 250px;
-	background-repeat: no-repeat;
-	background-image: url('./images/lhin.png');
 	margin-bottom: 0;
 	padding-right: 0;
 }
@@ -268,7 +236,7 @@ hr {
 .ib {
 	display: inline-block;
 	margin-right: 10px;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 
@@ -277,17 +245,13 @@ hr {
 .border-overlap {
 	height: 35px;
 	text-align: center;
-	padding-top: 9px;
+	padding-top: 12px;
 	font-family: open sans;
 	font-weight: bold;
 	font-size: 12px;
 }
 
-.row-row {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
+
 #light-blue {
 	background-color: #83AFD6;
 	color: #0A5595;
@@ -299,6 +263,7 @@ hr {
 #light-green{
 	background-color: #ACD3A9;
 	color:  #507851;
+	font-size: 10px;
 }
 #dark-green{
 	background-color: #507851;
@@ -312,4 +277,100 @@ hr {
 	background-color: #B38026;
 	color: #F8D037;
 }
+
+/* media queries */
+
+@media (max-width: 992px) { 
+	#medal {
+		margin: 25px auto;
+	}
+
+	#nav-links-top li {
+		margin-left: 2px;
+		font-size: 10px;
+	}
+
+	#nav-links-bottom li {
+		margin-top: 25px;
+		margin-left: 12px;
+		font-size: 10px;
+	}
+
+	#logo img {
+		margin-top: 10px;
+		z-index: 888;
+	}
+
+	#second-nav {
+		height: 100px;
+	}
+
+	#nobul-signature {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	#lhin-stamp {
+		margin-left: 33%;	
+	}
+ }
+
+#images {
+	background-color: #ECECEC;
+	border-top: 1px solid silver;
+	padding: 50px 0;
+}
+
+.image-boxes {
+	height: 210px;
+	position: relative;
+	margin: 20px auto;
+	max-width: 360px;
+}
+
+
+.first-image {
+	background-image: url('./images/fam-council.jpg');
+	border: 5px solid #83AFD6;
+}
+
+.second-image {
+	background-image: url('./images/residence-council.jpg');
+	border: 5px solid #ACD3A9;
+}
+
+.third-image {
+	background-image: url('./images/request-a-tour.jpg');
+	border: 5px solid #F8D037;
+}
+
+.image-lower-border {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
